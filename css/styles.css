@@ -394,8 +394,8 @@ body.dark-theme {
 }
 
 .skills__info {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem 1rem;
 }
 
 .skills__data {
@@ -404,8 +404,8 @@ body.dark-theme {
 }
 
 .skills__blob {
-  width: 80px;
-  height: 100px;
+  width: 60px;
+  height: 80px;
   background: var(--container-color);
   border-radius: 3rem;
   place-items: center;
@@ -413,7 +413,7 @@ body.dark-theme {
 }
 
 .skills__blob img {
-  width: 40px;
+  width: 30px;
 }
 
 .skills__name {
