@@ -257,9 +257,12 @@ body.dark-theme {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 /* Show menu */
 
 /* Active link */
+
+/* .active-link{  color:var(--title-color);} */
 
 /*=============== HOME ===============*/
 .home__container {
@@ -274,6 +277,7 @@ body.dark-theme {
 .home__title {
   text-align: center;
   font-size: var(--biggest-font-size);
+  font-family: var(--body-font);
   letter-spacing: 0.3px;
   margin-bottom: 0.5;
 }
@@ -932,9 +936,49 @@ transition: transform .3s;
 
 /*=============== SCROLL BAR ===============*/
 
+::-webkit-scrollbar{
+  width: .4rem;
+  border-radius: .5rem;
+  background: transparent;
+  /* border-radius: .5rem; */
+}
+
+::-webkit-scrollbar-thumb{
+  background: hsl(207, 4%, 75%);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: hsl(207, 4%, 55%);
+}
+
+
 /*=============== SCROLL UP ===============*/
 
+.scrollup{
+  position: fixed;
+  right: 1rem;
+  bottom: -30rem;
+  background: var(--body-color);
+  box-shadow: 0 4px 12px hsl(207, 24%, 35%, .15);
+  display: flex;
+  padding: .35rem;
+  border-radius: .25rem;
+  font-size: 1.1rem;
+  color: var(--title-color);
+  z-index: var(--z-tooltip);
+  transition: bottom .3s, transform .3s;
+}
+
+.scrollup:hover{
+  transform: rotate(360deg);
+}
+
 /* Show Scroll Up*/
+
+.show-scroll{
+  bottom: 7.5rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
