@@ -223,7 +223,7 @@ background: #2e2d2de5;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--body-color);
+  background-color: hsla(240, 20%, 99%, 0.863);
   box-shadow: 0 4px 30px hsla(207, 24%, 35%, 0.1);
   padding-inline: 1.5rem;
   border-radius: 3.5rem;
