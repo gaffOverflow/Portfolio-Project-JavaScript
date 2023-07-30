@@ -1390,7 +1390,7 @@ background: linear-gradient();
   }
 
   .projects__container .swiper-button-next {
-    left: -1rem;
+    right: 1rem;
   }
 
   .projects__container .swiper-slide {
