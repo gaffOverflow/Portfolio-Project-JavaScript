@@ -3,6 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
+*{
+  user-select: none;
+}
 
 :root {
   --header-height: 3.5rem;
@@ -13,7 +16,7 @@
   --first-color: hsl(207, 65%, 65%);
   --title-color: hsl(207, 4%, 16%);
   --text-color: hsl(207, 4%, 28%);
-  --text-color-light: hsl(207, 4%, 56%);
+  --text-color-light: #8a8f93;
   --body-color: hsl(207, 4%, 99%);
   --container-color: hsl(207, 4%, 95%);
 
@@ -166,6 +169,11 @@ background: #2e2d2de5;
 
 .dark-theme .nav__menu{
   background: #111;
+}
+
+.dark-theme .contact__button,
+.dark-theme .contact__button i{
+  color: var(--title-color);
 }
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
