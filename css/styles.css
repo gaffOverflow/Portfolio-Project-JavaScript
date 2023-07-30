@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
 
 /*=============== VARIABLES CSS ===============*/
-*{
+* {
   user-select: none;
 }
 
@@ -159,20 +159,20 @@ body.dark-theme {
   background: hsl(207, 4%, 35%, 15);
 }
 
-.dark-theme .home__perfil{
+.dark-theme .home__perfil {
   background: rgb(241, 244, 247);
 }
 
 .dark-theme .nav {
-background: #2e2d2de5;
+  background: #2e2d2de5;
 }
 
-.dark-theme .nav__menu{
+.dark-theme .nav__menu {
   background: #111;
 }
 
 .dark-theme .contact__button,
-.dark-theme .contact__button i{
+.dark-theme .contact__button i {
   color: var(--title-color);
 }
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -660,6 +660,12 @@ background: #2e2d2de5;
   transform: translateX(0.25rem);
 }
 
+.projects__description {
+  width: 250px;
+  margin-top: 1rem;
+  display: block;
+}
+
 /* Swiper class */
 
 .projects__container .swiper-button-prev::after,
@@ -1039,8 +1045,8 @@ background: #2e2d2de5;
 
 .dark-theme .nav,
 .dark-theme.nav__menu {
-/* box-shadow:  0 4px 30px hsla(0, 1%, 38%, 0.1); */
-background: linear-gradient();
+  /* box-shadow:  0 4px 30px hsla(0, 1%, 38%, 0.1); */
+  background: linear-gradient();
 }
 /*=============== BREAKPOINTS ===============*/
 
